@@ -3,7 +3,11 @@ package com.ccachun.springboot_mall.service;
 import com.ccachun.springboot_mall.dto.ProductRequest;
 import com.ccachun.springboot_mall.model.Product;
 
+import java.util.List;
+
 public interface ProductService {
+
+    List<Product> getProducts();
 
     Product getProductById(Integer productId);
 
