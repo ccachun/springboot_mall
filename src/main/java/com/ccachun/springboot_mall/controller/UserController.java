@@ -23,6 +23,8 @@ public class UserController {
     public ResponseEntity<User> register(@RequestBody @Valid UserRegisterRequest userRegisterRequest) {
         Integer userId = userService.register(userRegisterRequest);
 
+//        System.out.println("password:" + userRegisterRequest.getPassword());
+
         User user = userService.getUserById(userId);
 
         return ResponseEntity.status(HttpStatus.CREATED).body(user);
