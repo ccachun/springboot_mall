@@ -4,6 +4,7 @@ import com.ccachun.springboot_mall.dao.OrderDao;
 import com.ccachun.springboot_mall.dao.ProductDao;
 import com.ccachun.springboot_mall.dto.BuyItem;
 import com.ccachun.springboot_mall.dto.CreateOrderRequest;
+import com.ccachun.springboot_mall.model.Order;
 import com.ccachun.springboot_mall.model.OrderItem;
 import com.ccachun.springboot_mall.model.Product;
 import com.ccachun.springboot_mall.service.OrderService;
@@ -22,6 +23,17 @@ public class OrderServiceImpl implements OrderService {
 
     @Autowired
     private ProductDao productDao;
+
+    @Override
+    public Order getOrderById(Integer orderId) {
+        Order order = orderDao.getOrderById(orderId);
+
+        List<OrderItem> orderItemList = orderDao.getOrderItemsByOrderId(orderId);
+
+        order.setOrderItemList(orderItemList);
+
+        return order;
+    }
 
     @Transactional   // 一次處理多個 table，所以加上 @Transactional，確保數據一致
     @Override
