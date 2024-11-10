@@ -3,7 +3,6 @@ package com.ccachun.springboot_mall.controller;
 import com.ccachun.springboot_mall.dto.BuyItem;
 import com.ccachun.springboot_mall.dto.CreateOrderRequest;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -18,7 +17,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.hamcrest.Matchers.*;
-import static org.junit.jupiter.api.Assertions.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
