@@ -34,18 +34,18 @@
 
 ## 🗂️ 專案架構
 
-springboot_mall/
-├── controller/         # 控制器層 (接收 API 請求)
-├── service/            # 服務層 (處理商業邏輯)
-├── dao/                # DAO 層 (資料庫操作)
-├── rowmapper/          # 資料轉換 (ResultSet -> Java Object)
-├── model/              # Entity 與 DTO 資料模型
-├── util/               # 工具類別與常數
-├── exception/          # 自定義錯誤與例外處理
-├── config/             # 全域設定與設定類別
-├── application.yml     # Spring Boot 設定檔
-├── pom.xml             # Maven 依賴管理
-└── README.md           # 說明文件
+springboot_mall/<br>
+├── controller/         # 控制器層 (接收 API 請求)<br>
+├── service/            # 服務層 (處理商業邏輯)<br>
+├── dao/                # DAO 層 (資料庫操作)<br>
+├── rowmapper/          # 資料轉換 (ResultSet -> Java Object)<br>
+├── model/              # Entity 與 DTO 資料模型<br>
+├── util/               # 工具類別與常數<br>
+├── exception/          # 自定義錯誤與例外處理<br>
+├── config/             # 全域設定與設定類別<br>
+├── application.yml     # Spring Boot 設定檔<br>
+├── pom.xml             # Maven 依賴管理<br>
+└── README.md           # 說明文件<br>
 
 ---
 
