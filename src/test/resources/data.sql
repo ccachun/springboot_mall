@@ -1,23 +1,23 @@
 INSERT INTO product (product_name, category, image_url, price, stock, description, created_date, last_modified_date)
-VALUES ('Apple (Australia)', 'FOOD', 'https://firebasestorage.googleapis.com/v0/b/springboot-mall-e034e.appspot.com/o/apple-au.jpg?alt=media&token=387dfbc4-cd44-488f-bf6e-77820d4857fd', 30, 10, 'This is an apple from Australia!', '2024-09-19 22:10:00', '2024-09-19 22:20:00');
+VALUES ('Apple (Australia)', 'FOOD', 'https://firebasestorage.googleapis.com/v0/b/ccachun-blog.appspot.com/o/springboot-mall%2Fapple-au.jpg?alt=media&token=2a9c01ae-10fe-46bc-a360-807927b4d273', 30, 10, 'This is an apple from Australia!', '2024-09-19 22:10:00', '2024-09-19 22:20:00');
 
 INSERT INTO product (product_name, category, image_url, price, stock, description, created_date, last_modified_date)
-VALUES ('Apple (Hokkaido, Japan)', 'FOOD', 'https://firebasestorage.googleapis.com/v0/b/springboot-mall-e034e.appspot.com/o/apple-jp.jpg?alt=media&token=558554d6-4bd2-43ca-8e6b-1cd649d51462', 300, 5, 'This is an apple from Hokkaido, Japan!', '2024-09-19 22:22:00', '2024-09-19 22:23:00');
+VALUES ('Apple (Hokkaido, Japan)', 'FOOD', 'https://firebasestorage.googleapis.com/v0/b/ccachun-blog.appspot.com/o/springboot-mall%2Fapple-jp.jpg?alt=media&token=5af0a066-2f66-4667-9cfb-a9a444a2e00f', 300, 5, 'This is an apple from Hokkaido, Japan!', '2024-09-19 22:22:00', '2024-09-19 22:23:00');
 
 INSERT INTO product (product_name, category, image_url, price, stock, description, created_date, last_modified_date)
-VALUES ('Delicious and sweet oranges', 'FOOD', 'https://firebasestorage.googleapis.com/v0/b/springboot-mall-e034e.appspot.com/o/orange.jpg?alt=media&token=402a834c-6a51-4f20-9b0c-8b08d300d041', 10, 50, null, '2024-09-19 22:30:00', '2024-09-19 22:33:00');
+VALUES ('Delicious and sweet oranges', 'FOOD', 'https://firebasestorage.googleapis.com/v0/b/ccachun-blog.appspot.com/o/springboot-mall%2Forange.jpg?alt=media&token=9faf7e08-081f-42ca-9f68-1e37046b7599', 10, 50, null, '2024-09-19 22:30:00', '2024-09-19 22:33:00');
 
 INSERT INTO product (product_name, category, image_url, price, stock, description, created_date, last_modified_date)
-VALUES ('Toyota', 'CAR', 'https://firebasestorage.googleapis.com/v0/b/springboot-mall-e034e.appspot.com/o/toyota.jpg?alt=media&token=01913c08-800a-40a6-a727-aaa215d912e3', 100000, 5, null, '2024-09-19 22:50:00', '2024-09-19 22:55:00');
+VALUES ('Toyota', 'CAR', 'https://firebasestorage.googleapis.com/v0/b/ccachun-blog.appspot.com/o/springboot-mall%2Ftoyota.jpg?alt=media&token=34a3bb8e-615f-46e4-b813-f89b91fa67a3', 100000, 5, null, '2024-09-19 22:50:00', '2024-09-19 22:55:00');
 
 INSERT INTO product (product_name, category, image_url, price, stock, description, created_date, last_modified_date)
-VALUES ('BMW', 'CAR', 'https://firebasestorage.googleapis.com/v0/b/springboot-mall-e034e.appspot.com/o/bmw.jpg?alt=media&token=65fefbf5-9b88-43b7-846f-34842a95dda2', 500000, 3, 'Turbocharged, inline 4-cylinder, DOHC twin camshafts, 16 valves', '2024-09-19 23:10:00', '2024-09-19 23:20:00');
+VALUES ('BMW', 'CAR', 'https://firebasestorage.googleapis.com/v0/b/ccachun-blog.appspot.com/o/springboot-mall%2Fbmw.jpg?alt=media&token=431b6758-5ae7-41cb-9264-c6d5320807f8', 500000, 3, 'Turbocharged, inline 4-cylinder, DOHC twin camshafts, 16 valves', '2024-09-19 23:10:00', '2024-09-19 23:20:00');
 
 INSERT INTO product (product_name, category, image_url, price, stock, description, created_date, last_modified_date)
-VALUES ('Benz', 'CAR', 'https://firebasestorage.googleapis.com/v0/b/springboot-mall-e034e.appspot.com/o/benz.jpg?alt=media&token=f45d06ee-0db5-4086-922e-ef9cfe4626ab', 600000, 2, null, '2024-09-19 23:15:00', '2024-09-19 23:25:00');
+VALUES ('Benz', 'CAR', 'https://firebasestorage.googleapis.com/v0/b/ccachun-blog.appspot.com/o/springboot-mall%2Fbenz.jpg?alt=media&token=85c904f1-2ded-405d-b2a6-2e1321b03a56', 600000, 2, null, '2024-09-19 23:15:00', '2024-09-19 23:25:00');
 
 INSERT INTO product (product_name, category, image_url, price, stock, description, created_date, last_modified_date)
-VALUES ('Tesla', 'CAR', 'https://firebasestorage.googleapis.com/v0/b/springboot-mall-e034e.appspot.com/o/tesla.jpg?alt=media&token=d2c016d0-6236-4aa1-aed1-5aff1bd200d7', 450000, 5, 'The worlds best-selling plug-in car', '2024-09-19 23:30:00', '2024-09-19 23:34:00');
+VALUES ('Tesla', 'CAR', 'https://firebasestorage.googleapis.com/v0/b/ccachun-blog.appspot.com/o/springboot-mall%2Ftesla.jpg?alt=media&token=2ac8c41d-3e35-4e7e-b3e8-572939ac13b2', 450000, 5, 'The worlds best-selling plug-in car', '2024-09-19 23:30:00', '2024-09-19 23:34:00');
 
 
 -- user
